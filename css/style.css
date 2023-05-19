@@ -1,0 +1,374 @@
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background: transparent;
+  position: absolute;
+  left: 4%;
+  top: 0;
+}
+
+.section {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/51e53f54-0d9f-40ec-9e05-c030def06ac9/b125cc27-5719-4602-a072-09cb61037ade/AZ-en-20230515-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Netflix {
+  margin-left: 6rem;
+  fill: #e50914;
+  width: 150px;
+  height: 90px;
+}
+
+.language {
+  margin-top: 1rem;
+  margin-left: 38rem;
+  width: 150px;
+  padding: 5px 25px;
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+.language:focus {
+  outline: 4px solid white;
+  border: 1px solid gray;
+}
+
+.language option {
+  color: black;
+}
+
+header .fa-globe {
+  position: absolute;
+  margin-left: 38.5rem;
+  margin-top: 1.7rem;
+}
+
+.custom-btn a {
+  border-radius: 6px;
+  background-color: #e50914;
+  width: 90px;
+  padding: 6px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-left: 20px;
+  border: 1px solid #e50914;
+}
+
+.custom-btn a:hover {
+  background-color: #e50914;
+  color: white;
+  opacity: 0.5;
+  border: 1px solid #e50914;
+}
+
+.custom-btn a:focus {
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  color: white;
+  opacity: 0.9;
+}
+
+.info h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.info p {
+  font-size: 1.5rem;
+}
+
+.search form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.custom1-btn {
+  border-radius: 3px;
+  border: 1px solid white;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 400px;
+}
+
+.custom1-btn:focus {
+  border: 1px solid white;
+  outline: 2px solid white;
+  color: white;
+}
+
+.custom1-btn2 {
+  width: 200px;
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  font-size: 2rem;
+  text-align: center;
+  padding: 3px 0;
+  cursor: pointer;
+}
+
+.section2 {
+  background-color: black;
+  height: 580px;
+  width: auto;
+  margin-top: -24px;
+  border-top: 8px solid rgb(31, 30, 30);
+}
+
+.section2 h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.section2 p {
+  font-size: 1.5rem;
+}
+
+.headtv {
+  position: relative;
+  z-index: 1;
+}
+
+.headvideo {
+  position: absolute;
+  z-index: -1;
+  left: 17%;
+  top: 100px;
+  width: 466px;
+  overflow: hidden;
+}
+
+.section3 {
+  background-color: black;
+  width: auto;
+  height: 530px;
+  border-top: 8px solid rgb(31, 30, 30);
+}
+
+.spinner {
+  border: 3px solid rgb(31, 30, 30);
+  border-radius: 1rem;
+  margin-left: -24.2rem;
+  margin-top: 14rem;
+  width: 300px;
+  height: 100px;
+  background-color: black;
+}
+
+.download {
+  height: 85px;
+  margin-top: 0.35rem;
+}
+
+.downloading {
+  margin-top: -4.5rem;
+  margin-left: 4.5rem;
+}
+
+.gif {
+  margin-top: -7rem;
+  margin-left: 12.5rem;
+  width: 70px;
+  height: auto;
+}
+
+.text {
+  margin-left: 4rem;
+  width: 30rem;
+}
+
+.text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.text p {
+  font-size: 1.5rem;
+}
+
+.section4 {
+  background-color: black;
+  height: 530px;
+  width: auto;
+  border-top: 8px solid rgb(31, 30, 30);
+}
+
+.section4 h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.section4 p {
+  font-size: 1.5rem;
+}
+
+.devices {
+  z-index: 1;
+}
+
+.headvideo2 {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  max-width: 63%;
+  max-height: 55%;
+  top: 10%;
+  left: 18%;
+}
+
+.section5 {
+  background-color: black;
+  height: 550px;
+  border-top: 8px solid rgb(31, 30, 30);
+}
+
+.section5 h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.section5 p {
+  font-size: 1.5rem;
+}
+.section6 {
+  background-color: black;
+  height: 540px;
+  width: auto;
+}
+
+.kids {
+  width: 505px;
+}
+
+.section6 {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  margin-top: -3.5rem;
+  border-top: 8px solid rgb(31, 30, 30);
+}
+
+.section6 h1 {
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#accordion {
+  margin-top: 3rem;
+}
+
+.answers .card {
+  background-color: rgb(31, 30, 30);
+  border-radius: 0;
+}
+
+.answers .card-header {
+  border-bottom: 1px solid black;
+  padding: 25px;
+}
+
+.answers .card a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.answers .card-body {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.buttonadd {
+  color: white;
+  position: absolute;
+  margin-top: 2.2rem;
+  margin-left: 65rem;
+  background-color: transparent;
+  border: 1px solid rgb(31, 30, 30);
+}
+
+.answer {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: black;
+  height: 600px;
+  width: auto;
+  border-top: 8px solid rgb(31, 30, 30);
+}
+
+footer a {
+  color: #ffffffb3;
+}
+
+footer a:hover {
+  color: #ffffffb3;
+}
+
+footer a:focus {
+  color: #e50914;
+}
+
+footer li {
+  line-height: 40px;
+  font-size: 0.9rem;
+}
+
+.row {
+  width: 75%;
+  margin: auto;
+  margin-top: 3.75rem;
+}
+
+.questions p {
+  color: #ffffffb3;
+  text-decoration: underline;
+}
+
+.language2 {
+  margin-top: 5rem;
+  width: 150px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  border-radius: 6px;
+  padding: 5px 25px;
+}
+
+footer .fa-globe {
+  position: absolute;
+  margin-top: 5.6rem;
+  margin-left: 0.6rem;
+}
+
+.language2:focus {
+  outline: 4px solid white;
+}
+
+.end {
+  line-height: 50px;
+}
+
+.end p {
+  color: #ffffffb3;
+}
