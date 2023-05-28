@@ -1,6 +1,6 @@
 # Netflix-Clone
 
-###  Hello, this project is created using HTML, CSS and JavaScript.
+###  Hello, this project is created using HTML and CSS.
 
 ## Setup Project
 
